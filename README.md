@@ -30,7 +30,7 @@ portfolio/
 ├── style.css         # Main stylesheet
 └── README.md         # Project documentation
 
-
+```
 
 ##  Features
 
