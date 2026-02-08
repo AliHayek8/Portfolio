@@ -186,3 +186,35 @@ footer {
     flex-direction: column;
   }
 }
+
+.nav-links a.active {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+#formMessage {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--box);
+}
+
+#formMessage.success {
+  border-color: #22c55e;
+}
+
+#formMessage.error {
+  border-color: #ef4444;
+}
+
+#messageCounter {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+}
+
+#messageCounter.danger {
+  color: #ef4444;
+  font-weight: bold;
+}
